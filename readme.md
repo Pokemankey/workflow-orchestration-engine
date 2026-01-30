@@ -80,7 +80,7 @@ python test_workflows.py
 
 ## API Reference
 
-- **POST** `/workflows` - Submit and auto-trigger workflow
+- **POST** `/workflows` - Submit workflow
 - **POST** `/workflows/{execution_id}/trigger` - Trigger workflow execution
 - **GET** `/workflows/{execution_id}` - Get workflow status
 - **GET** `/workflows/{execution_id}/results` - Get final results
