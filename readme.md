@@ -43,10 +43,15 @@ curl http://localhost:8000/health
 ### System Components
 
 **API Service** REST endpoints for workflow submission and status queries
+
 **Orchestrator** Manages workflow lifecycle, resolves dependencies, dispatches tasks
+
 **Workers** Execute tasks (mock API calls, LLM calls), update state in Redis
+
 **Kafka** Event bus for asynchronous communication between services
+
 **Redis** Stores workflow state and provides distributed locking
+
 
 ### Data Flow
 
