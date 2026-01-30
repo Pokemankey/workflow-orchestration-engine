@@ -15,7 +15,7 @@ A distributed workflow orchestration system that executes DAG-based workflows wi
 
 ```bash
 # 1. Clone the repository
-git clone <repository-url>
+git clone https://github.com/Pokemankey/workflow-orchestration-engine
 cd workflow-orchestrator
 
 # 2. Start all services
