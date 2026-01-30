@@ -70,11 +70,11 @@ curl http://localhost:8000/health
 
 ## How to Trigger Test Workflows
 
-# Install requests
+### Install requests
 
 pip install requests
 
-# Run tests
+### Run tests
 
 python test_workflows.py
 
